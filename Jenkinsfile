@@ -8,7 +8,7 @@ pipeline {
      stage("Hello groovy") {
       steps {
         script {
-          programmerzamannow.jenkins.Output.hello("Groovy")
+          echo Output.hello("Groovy")
         }
       }
     }
